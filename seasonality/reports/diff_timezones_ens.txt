@@ -1,0 +1,464 @@
+Test SensitiveAnalysis2 
+
+Simulated account   C:\Users\Administrator\ResilioSync\FXBootcamp\Zorro-Assets-Lists\AssetsDWX-FX-G10.csv 
+Bar period          1 hour (avg 2024 min)
+Test period         2009-01-05..2019-08-22 (2760 bars), detrended
+Lookback period     1 bars (60 minutes)
+Simulation mode     Realistic (slippage 0.0 sec)
+
+Gross win/loss      6292$ / -7961$ (-21234p)
+Average profit      -157$/year, -13.09$/month, -0.60$/day
+Max drawdown        -5126$ -307.2% (MAE -31265$ -1873.4%)
+Total down time     23% (TAE 97%)
+Max down time       18 days from Jun 2018
+Max open margin     3515$
+Max open risk       955$
+Trade volume        183856$ (17303$/year)
+Transaction costs   0$ spr, 0$ slp, 0$ rol
+Capital required    6239$
+
+Number of trades    196 (19/year, 0/week, 0/day)
+Percent winning     39.3%
+Max win/loss        233$ / -189$
+Avg trade profit    -8.51$ -108.3p (+1039.6p / -851.1p)
+Avg trade slippage  0$ 0.0p (+0.0p / -0.0p)
+Avg trade bars      1340 (+1822 / -1029)
+Max trade bars      2443 (21 weeks)
+Time in market      9521%
+Max open trades     98
+Max loss streak     56 (uncorrelated 11)
+
+Annual return       -3%
+Profit factor       0.79 (PRR 0.64)
+Sharpe ratio        -0.02
+Kelly criterion     -0.02
+Standard Deviation  113.27%
+R2 coefficient      0.000
+Ulcer index         100.0%
+
+Information Ratio (x100)
+AUD/USD-on_hour-10-14 30.90
+AUD/USD-on_hour-10-15 30.90
+AUD/USD-on_hour-10-16 30.90
+AUD/USD-on_hour-10-17 30.90
+AUD/USD-on_hour-10-18 30.90
+AUD/USD-on_hour-10-19 30.90
+AUD/USD-on_hour-10-20 30.90
+AUD/USD-on_hour-11-14 32.38
+AUD/USD-on_hour-11-15 32.38
+AUD/USD-on_hour-11-16 32.38
+AUD/USD-on_hour-11-17 32.38
+AUD/USD-on_hour-11-18 32.38
+AUD/USD-on_hour-11-19 32.38
+AUD/USD-on_hour-11-20 32.38
+EUR/USD-on_hour-10-14 -149.21
+EUR/USD-on_hour-10-15 -149.21
+EUR/USD-on_hour-10-16 -149.21
+EUR/USD-on_hour-10-17 -149.21
+EUR/USD-on_hour-10-18 -149.21
+EUR/USD-on_hour-10-19 -149.21
+EUR/USD-on_hour-10-20 -149.21
+EUR/USD-on_hour-11-14 -699.26
+EUR/USD-on_hour-11-15 -699.26
+EUR/USD-on_hour-11-16 -699.26
+EUR/USD-on_hour-11-17 -699.26
+EUR/USD-on_hour-11-18 -699.26
+EUR/USD-on_hour-11-19 -699.26
+EUR/USD-on_hour-11-20 -699.26
+GBP/USD-on_hour-10-14 -14.86
+GBP/USD-on_hour-10-15 -14.86
+GBP/USD-on_hour-10-16 -14.86
+GBP/USD-on_hour-10-17 -14.86
+GBP/USD-on_hour-10-18 -14.86
+GBP/USD-on_hour-10-19 -14.86
+GBP/USD-on_hour-10-20 -14.86
+GBP/USD-on_hour-11-14 24.34
+GBP/USD-on_hour-11-15 24.34
+GBP/USD-on_hour-11-16 24.34
+GBP/USD-on_hour-11-17 24.34
+GBP/USD-on_hour-11-18 24.34
+GBP/USD-on_hour-11-19 24.34
+GBP/USD-on_hour-11-20 24.34
+NZD/USD-on_hour-10-14 66.46
+NZD/USD-on_hour-10-15 66.46
+NZD/USD-on_hour-10-16 66.46
+NZD/USD-on_hour-10-17 66.46
+NZD/USD-on_hour-10-18 66.46
+NZD/USD-on_hour-10-19 66.46
+NZD/USD-on_hour-10-20 66.46
+NZD/USD-on_hour-11-14 57.47
+NZD/USD-on_hour-11-15 57.47
+NZD/USD-on_hour-11-16 57.47
+NZD/USD-on_hour-11-17 57.47
+NZD/USD-on_hour-11-18 57.47
+NZD/USD-on_hour-11-19 57.47
+NZD/USD-on_hour-11-20 57.47
+
+Year Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Total
+2009 -37 -17  55  31 125 -12  43   2  33  14  27 -42  +223
+2010 -26 -17   5  -2 -85  27  77 -21  70  30 -52  59   +64
+2011   4  17   8  75 -20   2  44 -23 -115  63 -39 -22    -6
+2012  37   8 -14  12 -87  40  -1  12  26  -5  -5   5   +29
+2013  -6 -48  -1  19 -60 -11  20  -8  54  -2 -14   4   -55
+2014 -22  32   8  11 -10  24 -32 -18 -70 -15 -30 -30  -154
+2015 -49   7 -39  54 -42  11 -38  -7  -8  13 -39  11  -124
+2016 -33  28  57  29 -49   9   7 -10   9 -42 -36 -19   -50
+2017  51 -18   4   4  21  26  36 -11  -1 -34  14  20  +112
+2018  58 -31   6 -33 -18 -11  -0  -5  -2 -13   4  -2   -48
+2019  26 -11 -10 -11  -7  26 -34   1                   -19
+
+Portfolio analysis  OptF  ProF  Win/Loss   Wgt%
+
+AUD/USD avg         .020  1.94   14/14    -49.4  
+EUR/USD avg         .000  0.00    0/28    111.6  
+GBP/USD avg         .006  1.25   14/14    -15.5  
+NZD/USD avg         .046  4.09   14/14    -116.9  
+USD/CAD avg         .000  0.02    7/21     50.7  
+USD/CHF avg         .000  0.29   14/14     17.7  
+USD/JPY avg         .000  0.26   14/14    101.7  
+
+on_hour-10-14 avg   .046  0.52    5/9      18.1  
+on_hour-10-15 avg   .046  0.52    5/9      18.1  
+on_hour-10-16 avg   .046  0.52    5/9      18.1  
+on_hour-10-17 avg   .046  0.52    5/9      18.1  
+on_hour-10-18 avg   .046  0.52    5/9      18.1  
+on_hour-10-19 avg   .046  0.52    5/9      18.1  
+on_hour-10-20 avg   .046  0.52    5/9      18.1  
+on_hour-11-14 avg   .027  1.12    6/8      -3.8  
+on_hour-11-15 avg   .027  1.12    6/8      -3.8  
+on_hour-11-16 avg   .027  1.12    6/8      -3.8  
+on_hour-11-17 avg   .027  1.12    6/8      -3.8  
+on_hour-11-18 avg   .027  1.12    6/8      -3.8  
+on_hour-11-19 avg   .027  1.12    6/8      -3.8  
+on_hour-11-20 avg   .027  1.12    6/8      -3.8  
+on_hour-12-14 avg   .000  ----    0/0      -0.0  
+on_hour-12-15 avg   .000  ----    0/0      -0.0  
+on_hour-12-16 avg   .000  ----    0/0      -0.0  
+on_hour-12-17 avg   .000  ----    0/0      -0.0  
+on_hour-12-18 avg   .000  ----    0/0      -0.0  
+on_hour-12-19 avg   .000  ----    0/0      -0.0  
+on_hour-12-20 avg   .000  ----    0/0      -0.0  
+on_hour-6-14 avg    .000  ----    0/0      -0.0  
+on_hour-6-15 avg    .000  ----    0/0      -0.0  
+on_hour-6-16 avg    .000  ----    0/0      -0.0  
+on_hour-6-17 avg    .000  ----    0/0      -0.0  
+on_hour-6-18 avg    .000  ----    0/0      -0.0  
+on_hour-6-19 avg    .000  ----    0/0      -0.0  
+on_hour-6-20 avg    .000  ----    0/0      -0.0  
+on_hour-7-14 avg    .000  ----    0/0      -0.0  
+on_hour-7-15 avg    .000  ----    0/0      -0.0  
+on_hour-7-16 avg    .000  ----    0/0      -0.0  
+on_hour-7-17 avg    .000  ----    0/0      -0.0  
+on_hour-7-18 avg    .000  ----    0/0      -0.0  
+on_hour-7-19 avg    .000  ----    0/0      -0.0  
+on_hour-7-20 avg    .000  ----    0/0      -0.0  
+on_hour-8-14 avg    .000  ----    0/0      -0.0  
+on_hour-8-15 avg    .000  ----    0/0      -0.0  
+on_hour-8-16 avg    .000  ----    0/0      -0.0  
+on_hour-8-17 avg    .000  ----    0/0      -0.0  
+on_hour-8-18 avg    .000  ----    0/0      -0.0  
+on_hour-8-19 avg    .000  ----    0/0      -0.0  
+on_hour-8-20 avg    .000  ----    0/0      -0.0  
+on_hour-9-14 avg    .000  ----    0/0      -0.0  
+on_hour-9-15 avg    .000  ----    0/0      -0.0  
+on_hour-9-16 avg    .000  ----    0/0      -0.0  
+on_hour-9-17 avg    .000  ----    0/0      -0.0  
+on_hour-9-18 avg    .000  ----    0/0      -0.0  
+on_hour-9-19 avg    .000  ----    0/0      -0.0  
+on_hour-9-20 avg    .000  ----    0/0      -0.0  
+
+AUD/USD:on_hour-10-14 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-14:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-14:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-10-15 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-15:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-15:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-10-16 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-16:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-16:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-10-17 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-17:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-17:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-10-18 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-18:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-18:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-10-19 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-19:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-19:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-10-20 .190  1.89    1/1    -2.2  
+AUD/USD:on_hour-10-20:L .190  1.89    1/1   -2.2  
+AUD/USD:on_hour-10-20:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-14 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-14:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-14:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-15 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-15:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-15:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-16 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-16:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-16:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-17 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-17:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-17:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-18 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-18:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-18:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-19 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-19:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-19:S .000  ----    0/0   -0.0  
+AUD/USD:on_hour-11-20 .098  1.96    1/1    -4.8  
+AUD/USD:on_hour-11-20:L .098  1.96    1/1   -4.8  
+AUD/USD:on_hour-11-20:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-14 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-14:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-14:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-15 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-15:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-15:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-16 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-16:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-16:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-17 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-17:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-17:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-18 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-18:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-18:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-19 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-19:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-19:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-10-20 .000  0.00    0/2    10.2  
+EUR/USD:on_hour-10-20:L .000  0.00    0/2   10.2  
+EUR/USD:on_hour-10-20:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-14 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-14:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-14:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-15 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-15:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-15:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-16 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-16:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-16:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-17 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-17:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-17:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-18 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-18:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-18:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-19 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-19:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-19:S .000  ----    0/0   -0.0  
+EUR/USD:on_hour-11-20 .000  0.00    0/2     5.7  
+EUR/USD:on_hour-11-20:L .000  0.00    0/2    5.7  
+EUR/USD:on_hour-11-20:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-14 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-14:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-14:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-15 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-15:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-15:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-16 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-16:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-16:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-17 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-17:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-17:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-18 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-18:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-18:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-19 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-19:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-19:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-10-20 .000  0.74    1/1     1.0  
+GBP/USD:on_hour-10-20:L .000  0.74    1/1    1.0  
+GBP/USD:on_hour-10-20:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-14 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-14:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-14:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-15 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-15:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-15:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-16 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-16:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-16:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-17 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-17:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-17:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-18 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-18:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-18:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-19 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-19:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-19:S .000  ----    0/0   -0.0  
+GBP/USD:on_hour-11-20 .096  1.64    1/1    -3.2  
+GBP/USD:on_hour-11-20:L .096  1.64    1/1   -3.2  
+GBP/USD:on_hour-11-20:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-14 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-14:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-14:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-15 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-15:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-15:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-16 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-16:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-16:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-17 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-17:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-17:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-18 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-18:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-18:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-19 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-19:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-19:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-10-20 .462  4.96    1/1    -6.5  
+NZD/USD:on_hour-10-20:L .462  4.96    1/1   -6.5  
+NZD/USD:on_hour-10-20:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-14 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-14:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-14:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-15 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-15:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-15:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-16 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-16:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-16:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-17 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-17:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-17:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-18 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-18:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-18:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-19 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-19:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-19:S .000  ----    0/0   -0.0  
+NZD/USD:on_hour-11-20 .184  3.70    1/1   -10.2  
+NZD/USD:on_hour-11-20:L .184  3.70    1/1  -10.2  
+NZD/USD:on_hour-11-20:S .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-14 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-14:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-14:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-10-15 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-15:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-15:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-10-16 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-16:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-16:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-10-17 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-17:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-17:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-10-18 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-18:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-18:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-10-19 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-19:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-19:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-10-20 .000  0.00    0/2     5.7  
+USD/CAD:on_hour-10-20:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-10-20:S .000  0.00    0/2    5.7  
+USD/CAD:on_hour-11-14 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-14:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-14:S .000  0.09    1/1    1.5  
+USD/CAD:on_hour-11-15 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-15:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-15:S .000  0.09    1/1    1.5  
+USD/CAD:on_hour-11-16 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-16:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-16:S .000  0.09    1/1    1.5  
+USD/CAD:on_hour-11-17 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-17:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-17:S .000  0.09    1/1    1.5  
+USD/CAD:on_hour-11-18 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-18:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-18:S .000  0.09    1/1    1.5  
+USD/CAD:on_hour-11-19 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-19:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-19:S .000  0.09    1/1    1.5  
+USD/CAD:on_hour-11-20 .000  0.09    1/1     1.5  
+USD/CAD:on_hour-11-20:L .000  ----    0/0   -0.0  
+USD/CAD:on_hour-11-20:S .000  0.09    1/1    1.5  
+USD/CHF:on_hour-10-14 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-14:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-14:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-10-15 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-15:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-15:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-10-16 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-16:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-16:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-10-17 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-17:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-17:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-10-18 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-18:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-18:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-10-19 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-19:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-19:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-10-20 .000  0.16    1/1     2.1  
+USD/CHF:on_hour-10-20:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-10-20:S .000  0.16    1/1    2.1  
+USD/CHF:on_hour-11-14 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-14:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-14:S .000  0.59    1/1    0.4  
+USD/CHF:on_hour-11-15 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-15:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-15:S .000  0.59    1/1    0.4  
+USD/CHF:on_hour-11-16 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-16:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-16:S .000  0.59    1/1    0.4  
+USD/CHF:on_hour-11-17 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-17:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-17:S .000  0.59    1/1    0.4  
+USD/CHF:on_hour-11-18 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-18:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-18:S .000  0.59    1/1    0.4  
+USD/CHF:on_hour-11-19 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-19:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-19:S .000  0.59    1/1    0.4  
+USD/CHF:on_hour-11-20 .000  0.59    1/1     0.4  
+USD/CHF:on_hour-11-20:L .000  ----    0/0   -0.0  
+USD/CHF:on_hour-11-20:S .000  0.59    1/1    0.4  
+USD/JPY:on_hour-10-14 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-14:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-14:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-10-15 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-15:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-15:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-10-16 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-16:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-16:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-10-17 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-17:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-17:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-10-18 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-18:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-18:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-10-19 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-19:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-19:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-10-20 .000  0.31    1/1     7.8  
+USD/JPY:on_hour-10-20:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-10-20:S .000  0.31    1/1    7.8  
+USD/JPY:on_hour-11-14 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-14:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-14:S .000  0.19    1/1    6.7  
+USD/JPY:on_hour-11-15 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-15:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-15:S .000  0.19    1/1    6.7  
+USD/JPY:on_hour-11-16 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-16:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-16:S .000  0.19    1/1    6.7  
+USD/JPY:on_hour-11-17 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-17:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-17:S .000  0.19    1/1    6.7  
+USD/JPY:on_hour-11-18 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-18:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-18:S .000  0.19    1/1    6.7  
+USD/JPY:on_hour-11-19 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-19:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-19:S .000  0.19    1/1    6.7  
+USD/JPY:on_hour-11-20 .000  0.19    1/1     6.7  
+USD/JPY:on_hour-11-20:L .000  ----    0/0   -0.0  
+USD/JPY:on_hour-11-20:S .000  0.19    1/1    6.7  
+

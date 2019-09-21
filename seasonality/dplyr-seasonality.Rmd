@@ -1,0 +1,60 @@
+---
+title: "dplyr EURUSD Seasonality Example"
+output: html_notebook
+---
+
+Set DATA_FOLDER
+
+```{r set-data}
+DATA_FOLDER <- '/Users/damian.fanaro/ResilioSync/FXBootcamp'
+```
+
+```{r load-scripts, results='hide', message='FALSE', warning='FALSE'}
+source(paste0(DATA_FOLDER,'/Code/tools/r-tools/data-utils.R'))
+prices_df <- get_daily_OHLC('EURUSD')
+prices_df %>%
+  ggplot(aes(x = Date, y = Close)) +
+  geom_line()
+```
+
+## Calculate returns
+
+```{r calculate-returns}
+returns <-  prices_df %>%
+    group_by(Ticker) %>%
+    tq_transmute_(select = "Close", 'ROC', n = 1, type = 'discrete', na.pad = FALSE, col_rename = 'returns')
+```
+
+## Use timetk library to explode out data into its components
+
+```{r mean-returns-by-month}
+library(timetk)
+sdata <- tk_augment_timeseries_signature(returns) 
+```
+
+## Group by month and plot mean returns
+
+```{r moy-seasonality}
+monthreturns <- sdata %>%
+  group_by(month.lbl) %>%
+  summarise(meanreturns = mean(returns))
+
+monthreturns %>%
+  ggplot(aes(x=month.lbl, y=meanreturns)) +
+    geom_bar(stat='identity') +
+    labs(title = 'EURUSD Mean Returns by Calendar Month')
+```
+
+# Equity curve for each calendar month
+
+```{r equity-curve}
+eq_df <- sdata %>%
+  group_by(.dots = c('year','month.lbl')) %>%
+  summarise(meanreturns = mean(returns)) %>%
+  spread(key = month.lbl, value=meanreturns)
+
+eq_xts <- xts(eq_df[,-1], order.by = as.yearmon(eq_df$year))
+
+chart.CumReturns(eq_xts, legend.loc = 'topleft', main = 'EURUSD calendar month cumulative returns')
+table.AnnualizedReturns(eq_xts)            
+```

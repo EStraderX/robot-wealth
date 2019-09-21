@@ -1,0 +1,102 @@
+---
+title: "Currency Total Return Indices"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  html_notebook: default
+---
+
+The P&L of an FX Trade comes from movements in the exchange rate of the pair you are trading and the interest differential between the currencies in that pair.
+
+In this notebook we create "total return indexes" which represents the total return you would receive if any interest received or paid is compounded at every periodic observation.
+
+Charts are displayed which show the cumulative total return for a number of currencies, quoted in USD. We also show the cumulative returns from the spot movements and interest. 
+
+## Important - Set DATA_FOLDER to your FXBootcamp resilio location
+
+```{r set-environment-variables, echo=TRUE}
+DATA_FOLDER <- '/Users/damian.fanaro/ResilioSync/FXBootcamp'
+```
+
+# Setup
+
+Load the RW data utilities.
+
+```{r load-scripts, results='hide', message=FALSE, warning=FALSE}
+source(paste0(DATA_FOLDER,'/Code/tools/r-tools/data-utils.R'))
+```
+
+Set AssetList to pull all USD denominated pairs, and set up the environment to point at our boot camp data folder.
+
+```{r set-asset-list}
+ASSET_LIST <- 'AssetsDWX-FX-USD'
+```
+
+
+# Pull and convert data
+
+We convert all our pairs to the USD quote currency to make comparisions easier.
+
+```{r get-data, results='hide', message=FALSE, warning=FALSE}
+asset_list <- get_asset_list(ASSET_LIST)
+prices_df <- get_daily_OHLC(asset_list$Name)
+usd_prices_df <- convert_common_quote_currency(prices_df, quote_currency = 'USD')
+```
+
+# Get policy interest rates for each currency
+
+Pull short term interest rates for each currency. (Note SGD currently missing)
+
+```{r get-policy-rates, message=FALSE, warning=FALSE, results='hide'}
+currencies <- get_unique_currencies(usd_prices_df)
+policy_rates_df <- get_policy_rates(currencies)
+
+```
+
+Now we call the append_interest_rate_differential() function, which does the following:
+
+* split the ticker into Base and Quote currencies
+* look up the Base_Rate and Quote_Rate interest rates for each currency, carrying missing observations forward
+* calculate Rate_Diff, the differential between the BASE and QUOTE rates
+* calculate Daycount_Fraction for accruing interest. This is the number of days since the last price observation divided by 365
+* calculate Interest_Returns as Daycount_Fraction x Rate_Diff
+* calculate Interest_Accrual_on_Spot, the interest that accrues since the last observation on a single unit of currency, expressed in the quote currency at the last exchange rate - This is Daycount_Fraction x Rate_Diff 
+* calculate Spot_Returns from closing prices
+* calculate Spot Returns from the closing prices
+ 
+It constructs total return indexes by Ticker which assume all p&l from interest is compounded into the position on every price observation
+
+* Spot_Return_Indexes is the cumulative product of 1 + Spot_Returns
+* Interest_Return_Indexes is the cumulative product of 1 + Interest_Returns
+* Total_Return_Indexes is the cumulative product of 1 + Spot_Returns + Interest_Returns
+ 
+You can use these total return indexes like price series in your analysis.
+
+```{r append-interest-rate details}
+usd_extended_prices_df <- append_interest_rate_differential(usd_prices_df, policy_rates_df)
+head(usd_extended_prices_df)
+```
+
+# Total Return Charts (USD-quote pair convention)
+
+These charts show:
+
+* the total cumulative return from being long these pairs, assuming periodic (nearly daily) compounding of all interest paid or receive (blue)
+* the cumulative return from spot exchange rate movements (green)
+* the cumulative return from interest paid or received.
+
+```{r charts-normal-pairs}
+tickers <- distinct(usd_extended_prices_df, Ticker)[[1]]
+for (i in tickers) {
+  print(usd_extended_prices_df %>%
+      filter(Ticker == i) %>%
+      select(Ticker, Date, Spot_Return_Index, Interest_Return_Index, Total_Return_Index) %>%
+      gather('Spot_Return_Index','Interest_Return_Index','Total_Return_Index', key = 'type', value = 'value') %>%
+      ggplot(aes(x = Date, y = value, colour = type)) +
+      geom_line() +
+      labs(title = i) + 
+      theme_tq())
+}
+```
+
