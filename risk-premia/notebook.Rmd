@@ -1,11 +1,9 @@
 ---
 title: "The Risk Premia Harvesting Strategy"
-runtime: shiny
 output:
-  word_document: default
+  html_document: default
   html_notebook: default
   pdf_document: default
-  html_document: default
 ---
 
 ## Get Library Dependencies and Set Data Location
@@ -19,7 +17,7 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(quantmod, PerformanceAnalytics, dplyr, ggplot2, tidyr)
 
 # set to your resilio FXBootcamp folder
-DATA_FOLDER <- '/Users/damian.fanaro/ResilioSync/FXBootcamp'
+DATA_FOLDER <- 'C:\\Users\\damia\\ResilioSync\\FXBootcamp'
 
 ```
 

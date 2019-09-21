@@ -1,7 +1,7 @@
 library(xts)
 library(PerformanceAnalytics)
 
-DATA_FOLDER <- '/Users/damian.fanaro/ResilioSync/FXBootcamp'
+DATA_FOLDER <- 'C:\\Users\\damia\\ResilioSync\\FXBootcamp'
 
 prices_from_resilio <- function(filename, date_format="%Y%m%d") {
   prices = read.table(paste0(DATA_FOLDER, '/RiskPremia', '/', filename, '.csv'), header=TRUE, sep=",", row.names="Date") 
